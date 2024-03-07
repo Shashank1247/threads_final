@@ -4,6 +4,9 @@ const nextConfig = {
     typescript: {
         ignoreBuildErrors : true,
     },
+
+    //updated for vercel
+    
     experimental: {
       serverActions: true,
       serverComponentsExternalPackages: ["mongoose"],
