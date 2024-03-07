@@ -4,7 +4,7 @@ import { redirect } from 'next/navigation'
 import ProfileHeader from '@/components/shared/ProfileHeader'
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs"
 import { profileTabs } from "@/constants";
-import Image from "next/Image"
+import Image from "next/image"
 import ThreadsTab from "@/components/shared/ThreadsTab"
 
 

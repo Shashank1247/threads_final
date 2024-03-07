@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/form";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import Image from "next/Image"
+import Image from "next/image"
 import { CommentValidation } from "@/lib/validations/thread";
 import {addCommentToThread} from "@/lib/actions/thread.actions"
 //import { createThread } from "@/lib/actions/thread.actions";
